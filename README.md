@@ -39,4 +39,4 @@ vim.keymap.set('n', 'z\'', function() foldcus.unfold(4) end, NS)
 vim.api.nvim_create_user_command('Unfoldcus', function(args) foldcus.unfold(tonumber(args.args)) end, { nargs = '*' })
 ```
 
-![Usage Gif](foldcus.gif)
+![Usage Gif](https://user-images.githubusercontent.com/24369412/194706028-15cc6dec-ed13-4bf1-8761-e8e92bb09ca2.gif)
